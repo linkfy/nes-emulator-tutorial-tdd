@@ -67,6 +67,17 @@ The following remain outside its final scope:
 - Git for saving your progress.
 - A text editor or IDE with Python support.
 - Optional: Pyright or another type checker.
+- Legal local copies of the following Mapper 000 / NROM games for the manual
+  checkpoints. Automated tests do not use these files.
+
+| Game | Required local filename | SHA-256 of the verified tutorial dump |
+|---|---|---|
+| Mario Bros. | `MarioBros.nes` | `a2a0aa437a735cd36ed29a8e7c5b3dfa10590c6203e893f1668c7995bad2b309` |
+| Super Mario Bros. | `Super Mario Bros.nes` | `f61548fdf1670cffefcc4f0b7bdcdd9eaba0c226e3b74f8666071496988248de` |
+
+These hashes identify the ROM revisions used during tutorial development. Other
+legitimate dumps or revisions may differ. You must provide your own legally obtained
+copies; ROM files are not included and are ignored by Git.
 
 The repository pins its normal development interpreter in `.python-version` and locks
 dependencies in `uv.lock`.
