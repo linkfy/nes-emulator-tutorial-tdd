@@ -3,15 +3,71 @@
 Build a small, understandable Nintendo Entertainment System emulator from scratch by
 following the ordered test-driven development lessons numbered through Test 356.
 
-## Final Implementation Example
-
-The completed reference implementation is available at
-[linkfy/N1_TDD](https://github.com/linkfy/N1_TDD).
+> [!IMPORTANT]
+> **This tutorial takes the deliberate route, not the fast route to visible results.**
+> The first chapters build and verify the CPU, memory, cartridge, and PPU foundations.
+> Game graphics and the interactive frontend arrive later, after the components that
+> support them have earned their place through tests. Do not expect a game on screen in
+> the first few lessons; expect to understand why it works when it finally appears.
 
 This is a **tests-only starter project**. It intentionally does not contain the
 completed emulator. The `tests/` directory is the curriculum: each numbered test
 explains why the next behavior matters, which production file to create or update,
 and the smallest implementation expected at that point.
+
+## Final Implementation Example
+
+The completed reference implementation is available at
+[linkfy/N1_TDD](https://github.com/linkfy/N1_TDD).
+
+Use it to compare architecture or recover when you are genuinely blocked, but try the
+current lesson yourself first. The value of the tutorial comes from making each small
+decision in sequence.
+
+## Start Here
+
+Follow this route in order. Each link points to the section you need at that moment.
+
+| Step | What to do | Where to look |
+|---:|---|---|
+| 1 | Check the required tools and legally obtained manual ROMs. | [Prerequisites](#prerequisites) |
+| 2 | Install `uv` and create the locked environment. | [Install uv](#install-uv) and [Initialize the Environment](#initialize-the-environment) |
+| 3 | Open Test 001, read its full lesson, and run only that test. | [Start the Tutorial](#start-the-tutorial) |
+| 4 | Repeat Red-Green-Refactor for one numbered test at a time. | [The TDD Loop](#the-tdd-loop) |
+| 5 | Run completed tests only; do not run future chapters yet. | [Do Not Run the Full Future Suite Initially](#do-not-run-the-full-future-suite-initially) |
+| 6 | Use the chapter ranges to see where you are and what comes next. | [Curriculum Map](#curriculum-map) |
+| 7 | Use real ROMs only when a lesson reaches a manual checkpoint. | [Manual ROM Checkpoints](#manual-rom-checkpoints) |
+| 8 | Run the complete suite and manual checks after Test 356. | [Final Validation](#final-validation) |
+
+If you are unsure what to do next, open the lowest-numbered test that has not passed.
+Its module docstring is the lesson and its failure is the next task.
+
+## A Personal Note on the Approach
+
+Emulator development commonly relies on diagnostic ROM test suites and comparison
+against an established emulator or real hardware. Traces, screenshots, and known
+outputs are valuable sources of evidence, especially when pursuing hardware accuracy.
+This tutorial deliberately uses a different teaching contract.
+
+Here, the ordered Python tests are the source of truth. Each test defines the expected
+behavior of one small part of the machine, and every lesson already completed must
+remain green before the student moves forward. The difficult part of designing this
+tutorial was not only producing a working final emulator; it was arranging all 356
+steps so knowledge could accumulate without repeatedly forcing students to undo or
+reinterpret everything they had already learned.
+
+That constraint creates intentional compromises. An intermediate lesson may favor the
+clearest implementation over the fastest one, and preserving compatibility across the
+whole learning sequence may not always produce the same perfectly clean structure that
+a final implementation written in one pass would use. Later lessons introduce
+refactoring and optimization when the reason for them can be measured and understood.
+The goal is a practical balance: approachable steps, stable lessons, meaningful tests,
+and enough fidelity to understand how the emulator works as a connected system.
+
+I am genuinely excited that other people can use this project to begin exploring the
+fascinating world of emulation. I hope that reaching the first instruction, first
+frame, and first playable game through your own incremental work makes that world feel
+less mysterious and invites you to keep learning beyond this tutorial.
 
 ## Objective
 
