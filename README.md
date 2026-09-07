@@ -3,6 +3,11 @@
 Build a small, understandable Nintendo Entertainment System emulator from scratch by
 following the ordered test-driven development lessons numbered through Test 356.
 
+## Final Implementation Example
+
+The completed reference implementation is available at
+[linkfy/N1_TDD](https://github.com/linkfy/N1_TDD).
+
 This is a **tests-only starter project**. It intentionally does not contain the
 completed emulator. The `tests/` directory is the curriculum: each numbered test
 explains why the next behavior matters, which production file to create or update,
