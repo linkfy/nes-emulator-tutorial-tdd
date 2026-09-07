@@ -1,0 +1,19 @@
+[project]
+name = "nes-emulator-tutorial-by-test-driven-development"
+version = "0.1.0"
+description = "Build a focused NES emulator incrementally through 356 TDD lessons"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pygame-ce>=2.5.8",
+    "pytest>=9.0.3",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.3",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

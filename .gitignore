@@ -1,0 +1,43 @@
+# Legal ROM files must remain local and must never be committed
+*.nes
+*.NES
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments and local uv state
+.venv/
+.uv/
+
+# Test, type-checker, linter, and coverage caches
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.pyright/
+.ruff_cache/
+.tox/
+.nox/
+
+# Packaging output
+build/
+dist/
+wheels/
+*.egg-info/
+
+# Local environment and logs
+.env
+.env.*
+!.env.example
+*.log
+
+# Editors and operating systems
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
