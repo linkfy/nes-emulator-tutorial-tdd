@@ -53,7 +53,7 @@ Complete example implementation:
                 return
 
             raise NotImplementedError(
-                f"Opcode ${opcode:02X} is not implemented"
+                f"Opcode {opcode:02X} not implemented"
             )
 
 Important invariants:

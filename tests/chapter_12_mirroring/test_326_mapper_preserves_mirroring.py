@@ -61,6 +61,12 @@ Suggested implementation changes:
         def read_prg(self, addr: int) -> int:
             ...
 
+Annotation compatibility:
+The protocol may use immediate annotations or `from __future__ import annotations`.
+The executable test resolves type hints before checking that mirroring is Boolean, so
+the contract does not depend on whether Python stores the annotation as `bool` or as
+the string `"bool"`.
+
 Why append a defaulted Mapper000 field?
 Historical tests and tutorial code construct Mapper000 with only PRG and CHR ROM.
 Appending a False default preserves that constructor and means horizontal mirroring
@@ -78,6 +84,8 @@ Out of scope:
     - scrolling
     - commercial ROM fixtures
 """
+
+from typing import get_type_hints
 
 from emulator.cartridge.cartridge import Cartridge
 from emulator.cartridge.mapper000 import Mapper000
@@ -100,7 +108,7 @@ def test_mapper_interface_exposes_vertical_mirroring_metadata():
     PpuBus should eventually be able to obtain mirroring through the common mapper
     contract rather than depending directly on Cartridge.
     """
-    assert MapperInterface.__annotations__["is_vertical_mirroring"] is bool
+    assert get_type_hints(MapperInterface)["is_vertical_mirroring"] is bool
 
 
 def test_direct_mapper000_construction_defaults_to_horizontal_mirroring():

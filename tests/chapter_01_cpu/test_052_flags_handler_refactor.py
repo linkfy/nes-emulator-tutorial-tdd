@@ -28,6 +28,7 @@ Complete example implementation:
 
     CARRY_FLAG = 1 << 0
     ZERO_FLAG = 1 << 1
+    ONE_FLAG = 1 << 5
     OVERFLOW_FLAG = 1 << 6
     NEGATIVE_FLAG = 1 << 7
 
@@ -59,6 +60,12 @@ Complete example implementation:
             else:
                 self.cpu.p &= ~CARRY_FLAG
 
+        def set_one_flag(self, enabled: bool):
+            if enabled:
+                self.cpu.p |= ONE_FLAG
+            else:
+                self.cpu.p &= ~ONE_FLAG
+
         def get_zero_flag(self) -> bool:
             return bool(self.cpu.p & ZERO_FLAG)
 
@@ -70,6 +77,9 @@ Complete example implementation:
 
         def get_carry_flag(self) -> bool:
             return bool(self.cpu.p & CARRY_FLAG)
+
+        def get_one_flag(self) -> bool:
+            return bool(self.cpu.p & ONE_FLAG)
 
     # emulator/cpu/cpu.py
     from dataclasses import dataclass, field
@@ -99,7 +109,7 @@ that would split state or break the instructions introduced in earlier tests.
 
 Out of scope:
     - ADC, which first consumes these public helpers in test 053
-    - Break, interrupt-disable, decimal, and bit-5 helpers
+    - Break, interrupt-disable, and decimal helpers
     - stack and interrupt behavior
 """
 import inspect
@@ -202,6 +212,9 @@ def test_flags_handler_set_methods_exist():
         def set_carry_flag(self, enabled: bool):
             ...
 
+        def set_one_flag(self, enabled: bool):
+            ...
+
     Important:
     enabled=True means set the flag.
     enabled=False means clear the flag.
@@ -217,7 +230,6 @@ def test_flags_handler_set_methods_exist():
     assert hasattr(FlagsHandler, "set_negative_flag")
     assert hasattr(FlagsHandler, "set_overflow_flag")
     assert hasattr(FlagsHandler, "set_carry_flag")
-    # Required by Test 188; outside lesson 052's API.
     assert hasattr(FlagsHandler, "set_one_flag")
 
 
@@ -238,6 +250,9 @@ def test_flags_handler_get_methods_exist():
         def get_carry_flag(self) -> bool:
             ...
 
+        def get_one_flag(self) -> bool:
+            ...
+
     Example implementation:
         return bool(self.cpu.p & ZERO_FLAG)
 
@@ -252,7 +267,6 @@ def test_flags_handler_get_methods_exist():
     assert hasattr(FlagsHandler, "get_negative_flag")
     assert hasattr(FlagsHandler, "get_overflow_flag")
     assert hasattr(FlagsHandler, "get_carry_flag")
-    # Required by Test 188; outside lesson 052's API.
     assert hasattr(FlagsHandler, "get_one_flag")
 
 
@@ -314,11 +328,10 @@ def test_flags_handler_sets_and_clears_carry_flag():
 
 def test_flags_handler_sets_and_clears_one_flag():
     """
-    Test 188 compatibility check, outside the scope of Test 052.
+    Objective: set_one_flag(True) sets bit 5, and False clears only bit 5.
 
-    This verifies that the bit-5 helper required by Test 188 can set and clear
-    only that bit. In this step, the suggested implementation intentionally
-    stops at C, Z, V, and N.
+    This helper is introduced now because it is part of this lesson's executable
+    FlagsHandler contract and will later be used when status bytes are pushed.
     """
     cpu = make_cpu()
     flags = FlagsHandler(cpu)

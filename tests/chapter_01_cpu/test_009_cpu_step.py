@@ -27,7 +27,7 @@ Complete example implementation:
                 return
 
             raise NotImplementedError(
-                f"Opcode ${opcode:02X} is not implemented"
+                f"Opcode {opcode:02X} not implemented"
             )
 
 Execution timeline:
@@ -71,7 +71,7 @@ def test_lda_inmediate_without_flags():
         if opcode == 0xA9
             self.a = self.fetch_byte()
             return
-        raise NotImplementedError(f"{opcode:02X} not implemented")
+        raise NotImplementedError(f"Opcode {opcode:02X} not implemented")
 
     LDA Reference:
     https://www.nesdev.org/wiki/Instruction_reference#LDA

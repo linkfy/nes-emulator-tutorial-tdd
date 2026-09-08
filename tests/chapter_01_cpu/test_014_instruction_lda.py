@@ -34,14 +34,14 @@ Complete example implementation:
                 return lda(self, immediate(self))
 
             if opcode == 0xAD:
-                return lda(self, absolute(self))
+                return lda(self, self.bus.read(absolute(self)))
 
             raise NotImplementedError(
-                f"Opcode ${opcode:02X} is not implemented"
+                f"Opcode {opcode:02X} not implemented"
             )
 
 Important boundaries:
-    - the current addressing helpers return values for LDA
+    - immediate returns a value, while absolute returns an address to dereference
     - CPU.step selects the addressing mode
     - lda changes CPU state and flags
 

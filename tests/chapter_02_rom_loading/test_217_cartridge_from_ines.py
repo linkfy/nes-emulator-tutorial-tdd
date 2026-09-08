@@ -3,14 +3,15 @@ Lesson 217: create
 `emulator/cartridge/cartridge.py::Cartridge`.
 
 Why this step exists:
-The iNES parser owns file-layout concerns; this class exposes only the PRG bytes,
-CHR bytes, and mapper identity needed by the emulator. `from_ines_bytes` is the
-boundary between those representations and depends on the parser completed in
-lesson 216.
+The iNES parser owns file-layout concerns; this class exposes the PRG bytes, CHR
+bytes, mapper identity, and optional CHR-RAM storage needed by the emulator.
+`from_ines_bytes` is the boundary between those representations and depends on the
+parser completed in lesson 216.
 
 Suggested implementation for this lesson:
 
     from dataclasses import dataclass
+    from typing import Optional
     from emulator.cartridge.ines import parse_ines_rom
 
 
@@ -19,6 +20,7 @@ Suggested implementation for this lesson:
         prg_rom: bytes
         chr_rom: bytes
         mapper_number: int
+        chr_ram: Optional[bytearray] = None
 
         @classmethod
         def from_ines_bytes(cls, data: bytes) -> "Cartridge":
@@ -30,8 +32,9 @@ Suggested implementation for this lesson:
             )
 
 Invariants: the lesson's class is frozen; required field order is PRG, CHR,
-mapper number; and construction copies parsed values without translating
-addresses. The tests allow an optional `chr_ram` field used by later lessons.
+mapper number, then CHR RAM; and construction copies parsed values without
+translating addresses. The `chr_ram` field is required in the dataclass shape,
+but its value is optional and defaults to `None`.
 
 Out of scope for this step:
     1. Lessons 218-219 put PRG and CHR address translation on `Mapper000`.
@@ -91,8 +94,8 @@ def test_cartridge_is_dataclass():
 
 def test_cartridge_has_required_fields_in_order():
     """
-    Compatibility objective: the lesson's three required fields remain first,
-    followed by the optional `chr_ram` field used by later lessons.
+    Objective: the lesson's four fields appear in the required order. `chr_ram`
+    is a required dataclass field whose value is optional and defaults to None.
     """
     required_fields = [
         "prg_rom",
@@ -125,8 +128,8 @@ def test_cartridge_can_be_created_directly():
 
 def test_cartridge_can_optionally_store_chr_ram():
     """
-    Compatibility objective: a Cartridge can carry optional CHR RAM needed by
-    later graphics lessons. This is not lesson-217 implementation work.
+    Objective: a Cartridge can carry CHR RAM needed by later graphics lessons.
+    The field belongs to lesson 217 even though writable CHR behavior comes later.
     """
     chr_ram = bytearray(8 * 1024)
     cartridge = Cartridge(

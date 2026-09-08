@@ -41,7 +41,7 @@ Complete example implementation:
                 self.a = self.bus.read(address)
             else:
                 raise NotImplementedError(
-                    f"Opcode ${opcode:02X} is not implemented"
+                    f"Opcode {opcode:02X} not implemented"
                 )
 
             self._update_zero_and_negative_flags(self.a)
