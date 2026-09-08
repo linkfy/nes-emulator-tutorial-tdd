@@ -1,4 +1,4 @@
-"""Lesson 140: add EOR absolute,Y opcode ``0x59``.
+"""add EOR absolute,Y opcode ``0x59``.
 
 Why this step exists:
 The Y-indexed absolute opcode provides the corresponding EOR data-access form

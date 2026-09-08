@@ -1,4 +1,4 @@
-"""Lesson 117: expose AND immediate as opcode ``0x29``.
+"""expose AND immediate as opcode ``0x29``.
 
 In this step, use the instruction from lesson 116 and add its import, immediate
 handler, and opcode-table entry in ``emulator/cpu/opcodes.py``.

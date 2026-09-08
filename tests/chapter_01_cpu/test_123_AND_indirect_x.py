@@ -1,4 +1,4 @@
-"""Lesson 123: add AND (indirect,X) opcode ``0x21``.
+"""add AND (indirect,X) opcode ``0x21``.
 
 Why this step exists:
 AND needs pre-indexed indirect access for pointer tables in zero page, while

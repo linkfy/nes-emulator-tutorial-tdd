@@ -1,5 +1,5 @@
 """
-Test 023 — Add zero-page,X STA ($95).
+Add zero-page,X STA ($95).
 
 File to update:
     emulator/cpu/opcodes.py

@@ -1,4 +1,4 @@
-"""Lesson 141: add EOR (indirect,X) opcode ``0x41``.
+"""add EOR (indirect,X) opcode ``0x41``.
 
 Why this step exists:
 Pre-indexed indirect EOR enables pointer-table access through zero page while

@@ -1,5 +1,5 @@
 """
-Test 098 - Add LSR Zero Page.
+Add LSR Zero Page.
 
 In this step, expose memory `lsr` from Test 095 through its first addressed
 opcode.

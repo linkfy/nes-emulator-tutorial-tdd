@@ -1,5 +1,5 @@
 """
-Test 064 - Add SBC Zero Page.
+Add SBC Zero Page.
 
 File to update:
     emulator/cpu/opcodes.py

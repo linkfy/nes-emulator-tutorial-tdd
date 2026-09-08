@@ -1,4 +1,4 @@
-"""Lesson 163: decode an eight-bit relative branch offset.
+"""decode an eight-bit relative branch offset.
 
 Why this step exists:
 A branch stores a signed displacement from the PC after its operand rather

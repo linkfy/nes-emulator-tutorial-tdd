@@ -1,4 +1,4 @@
-"""Lesson 105: wire ROL Zero Page (opcode ``0x26``).
+"""wire ROL Zero Page (opcode ``0x26``).
 
 In this step, after the accumulator wiring in lesson 104, add only the
 zero-page adapter and table entry.

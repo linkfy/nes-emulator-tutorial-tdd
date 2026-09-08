@@ -1,4 +1,4 @@
-"""Lesson 079: wire DEC Absolute,X (`0xDE`).
+"""wire DEC Absolute,X (`0xDE`).
 
 In this step, add `emulator/cpu/opcodes.py:dec_absolute_x` and
 `OPCODE_TABLE[0xDE]` after the DEC work from lessons 076-078.

@@ -1,4 +1,4 @@
-"""Lesson 135: expose EOR immediate opcode ``0x49``.
+"""expose EOR immediate opcode ``0x49``.
 
 Why this step exists:
 The immediate form makes EOR executable with a literal operand and establishes

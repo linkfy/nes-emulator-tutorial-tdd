@@ -1,4 +1,4 @@
-"""Step 210: verify the completed CPU instruction slice.
+"""verify the completed CPU instruction slice.
 
 In this step, integrate existing ``emulator/cpu/cpu.py::CPU.reset``/``CPU.step``,
 ``emulator/cpu/opcodes.py::OPCODE_TABLE``, instruction symbols ``lda``, ``ldx``,

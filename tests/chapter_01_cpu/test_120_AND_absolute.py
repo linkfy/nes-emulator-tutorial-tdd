@@ -1,4 +1,4 @@
-"""Lesson 120: add AND absolute opcode ``0x2D``.
+"""add AND absolute opcode ``0x2D``.
 
 In this step, use ``and_a``, its opcode import, and the simpler modes from
 lessons 116-119, then add only the absolute handler and table entry.

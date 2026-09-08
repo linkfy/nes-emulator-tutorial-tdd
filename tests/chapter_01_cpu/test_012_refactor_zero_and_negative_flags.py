@@ -1,5 +1,5 @@
 """
-Test 012 — Extract shared Zero and Negative flag updates.
+Extract shared Zero and Negative flag updates.
 
 File to update:
     emulator/cpu/cpu.py

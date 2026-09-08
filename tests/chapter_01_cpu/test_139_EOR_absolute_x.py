@@ -1,4 +1,4 @@
-"""Lesson 139: add EOR absolute,X opcode ``0x5D``.
+"""add EOR absolute,X opcode ``0x5D``.
 
 Why this step exists:
 Programs need EOR over full-address data indexed by X; this step connects that

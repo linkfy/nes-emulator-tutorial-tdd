@@ -1,4 +1,4 @@
-"""Lesson 108: wire ROL Absolute,X (opcode ``0x3E``).
+"""wire ROL Absolute,X (opcode ``0x3E``).
 
 In this step, complete the ROL sequence by adding only the Absolute,X adapter
 and dispatch entry after lesson 107.

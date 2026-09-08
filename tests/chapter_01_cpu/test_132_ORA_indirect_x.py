@@ -1,4 +1,4 @@
-"""Lesson 132: add ORA (indirect,X) opcode ``0x01``.
+"""add ORA (indirect,X) opcode ``0x01``.
 
 Why this step exists:
 Pre-indexed indirect ORA supports zero-page pointer tables and confirms that

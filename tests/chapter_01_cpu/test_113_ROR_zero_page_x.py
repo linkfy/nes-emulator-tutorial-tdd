@@ -1,4 +1,4 @@
-"""Lesson 113: add ROR zero-page,X opcode ``0x76``.
+"""add ROR zero-page,X opcode ``0x76``.
 
 In this step, with ``ror`` imported by lesson 112, add only the indexed
 zero-page handler and table entry in ``emulator/cpu/opcodes.py``.

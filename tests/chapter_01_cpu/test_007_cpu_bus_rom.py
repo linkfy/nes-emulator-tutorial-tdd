@@ -1,5 +1,5 @@
 """
-Test 007 — Map FakeROM into the CPU program-ROM address range.
+Map FakeROM into the CPU program-ROM address range.
 
 File to update:
     emulator/bus/cpu_bus.py

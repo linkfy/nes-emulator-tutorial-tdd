@@ -1,4 +1,4 @@
-"""Lesson 131: add ORA absolute,Y opcode ``0x19``.
+"""add ORA absolute,Y opcode ``0x19``.
 
 Why this step exists:
 The Y-indexed absolute form gives ORA equivalent access through either index

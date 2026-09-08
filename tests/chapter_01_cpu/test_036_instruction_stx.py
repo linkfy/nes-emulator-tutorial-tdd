@@ -1,5 +1,5 @@
 """
-Test 036 - Add the core STX instruction.
+Add the core STX instruction.
 
 File to update:
     emulator/cpu/instructions.py

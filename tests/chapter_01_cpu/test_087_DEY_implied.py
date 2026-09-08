@@ -1,5 +1,5 @@
 """
-Test 087 - Wire the DEY implied opcode.
+Wire the DEY implied opcode.
 
 In this step, use `instructions.dey` from Test 086 and add only its opcode
 integration.

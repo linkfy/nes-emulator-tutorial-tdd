@@ -1,5 +1,5 @@
 """
-Test 026 — Add absolute,Y STA ($99).
+Add absolute,Y STA ($99).
 
 File to update:
     emulator/cpu/opcodes.py

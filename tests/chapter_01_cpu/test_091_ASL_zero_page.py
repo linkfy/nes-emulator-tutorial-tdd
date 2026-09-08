@@ -1,5 +1,5 @@
 """
-Test 091 - Add ASL Zero Page.
+Add ASL Zero Page.
 
 In this step, add the first addressed ASL form. Tests 088-090 are prerequisites
 for memory and accumulator behavior and accumulator dispatch.

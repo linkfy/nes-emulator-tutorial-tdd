@@ -1,4 +1,4 @@
-"""Lesson 121: add AND absolute,X opcode ``0x3D``.
+"""add AND absolute,X opcode ``0x3D``.
 
 Why this step exists:
 Programs need AND over table-like memory addressed by a full base plus X; this

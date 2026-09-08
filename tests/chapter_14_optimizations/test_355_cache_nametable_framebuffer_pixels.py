@@ -1,5 +1,5 @@
 """
-Test 355 — Cache repeated nametable framebuffer pixels by exact graphics inputs.
+Cache repeated nametable framebuffer pixels by exact graphics inputs.
 
 File to update:
     emulator/rendering/nametable_renderer.py

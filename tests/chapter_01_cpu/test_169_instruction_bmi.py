@@ -1,4 +1,4 @@
-"""Lesson 169: implement Branch if Minus behavior.
+"""implement Branch if Minus behavior.
 
 Why this step exists:
 "Minus" means the Negative flag from an earlier result is set, so BMI consumes

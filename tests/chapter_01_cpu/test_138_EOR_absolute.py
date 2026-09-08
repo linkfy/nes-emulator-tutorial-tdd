@@ -1,4 +1,4 @@
-"""Lesson 138: add EOR absolute opcode ``0x4D``.
+"""add EOR absolute opcode ``0x4D``.
 
 Why this step exists:
 Absolute EOR allows exclusive OR against any CPU memory location while keeping

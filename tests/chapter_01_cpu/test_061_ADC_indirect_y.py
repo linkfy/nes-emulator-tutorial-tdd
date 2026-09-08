@@ -1,5 +1,5 @@
 """
-Test 061 - Add ADC (Indirect),Y.
+Add ADC (Indirect),Y.
 
 File to update:
     emulator/cpu/opcodes.py

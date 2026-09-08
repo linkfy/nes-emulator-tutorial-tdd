@@ -1,11 +1,11 @@
-"""Step 201: implement the TXS operation.
+"""implement the TXS operation.
 
 Why this step exists:
 In this step, add ``emulator/cpu/instructions.py::txs``. This operation is
 introduced now because stack transfers are the remaining stack-instruction
 behavior: X is copied into the stack-pointer byte without a memory access.
 
-Suggested implementation::
+Suggested implementation:
 
     def txs(cpu: CPU):
         cpu.s = cpu.x

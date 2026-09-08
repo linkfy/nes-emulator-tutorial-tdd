@@ -1,4 +1,4 @@
-"""Lesson 124: add AND (indirect),Y opcode ``0x31``.
+"""add AND (indirect),Y opcode ``0x31``.
 
 Why this step exists:
 This completes AND addressing coverage with a zero-page pointer followed by Y

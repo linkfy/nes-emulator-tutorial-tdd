@@ -1,5 +1,5 @@
 """
-Test 052 - Introduce a public helper for processor-status flag access.
+Introduce a public helper for processor-status flag access.
 
 Files to create/update:
     emulator/cpu/flags_handler.py

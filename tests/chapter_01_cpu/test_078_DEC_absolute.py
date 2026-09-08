@@ -1,4 +1,4 @@
-"""Lesson 078: wire DEC Absolute (`0xCE`).
+"""wire DEC Absolute (`0xCE`).
 
 In this step, after the DEC primitive and zero-page forms from lessons 076-077,
 add `emulator/cpu/opcodes.py:dec_absolute` and `OPCODE_TABLE[0xCE]`.

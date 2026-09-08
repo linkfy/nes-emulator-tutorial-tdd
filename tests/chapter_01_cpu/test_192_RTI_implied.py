@@ -1,4 +1,4 @@
-"""Step 192: register implied RTI.
+"""register implied RTI.
 
 Prerequisite: step 191 added ``rti``. In this step, change only
 ``emulator/cpu/opcodes.py`` by importing that symbol and registering opcode $40
@@ -9,7 +9,7 @@ RTI is a one-byte implied instruction. ``CPU.step()`` has already fetched $40,
 and all remaining inputs come from the stack, so dispatch must be wired directly
 to the operation without consuming an operand.
 
-Suggested implementation::
+Suggested implementation:
 
     from emulator.cpu.instructions import rti
 

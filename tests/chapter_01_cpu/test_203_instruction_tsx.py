@@ -1,11 +1,11 @@
-"""Step 203: implement the TSX operation.
+"""implement the TSX operation.
 
 Why this step exists:
 In this step, add ``emulator/cpu/instructions.py::tsx``. TSX complements
 step 201 by copying the stack-pointer byte into X and deriving the two result
 flags from the copied value.
 
-Suggested implementation::
+Suggested implementation:
 
     def tsx(cpu: CPU):
         cpu.x = cpu.s

@@ -1,5 +1,5 @@
 """
-Test 002 — Implement raw 2 KiB RAM storage.
+Implement raw 2 KiB RAM storage.
 
 File to update:
     emulator/memory/ram.py

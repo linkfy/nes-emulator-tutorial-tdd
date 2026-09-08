@@ -1,5 +1,5 @@
 """
-Test 051 - Register the four transfer instructions as implied opcodes.
+Register the four transfer instructions as implied opcodes.
 
 File to update:
     emulator/cpu/opcodes.py

@@ -1,4 +1,4 @@
-"""Lesson 149: add CMP zero-page,X opcode ``0xD5``.
+"""add CMP zero-page,X opcode ``0xD5``.
 
 Why this step exists:
 Indexed zero-page CMP supports compact table lookups and confirms that X

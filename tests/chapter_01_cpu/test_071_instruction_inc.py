@@ -1,4 +1,4 @@
-"""Lesson 071: add the INC instruction primitive.
+"""add the INC instruction primitive.
 
 In this step, add only `emulator/cpu/instructions.py:inc`. The opcode import,
 handlers, and table entries belong to lessons 072-075.

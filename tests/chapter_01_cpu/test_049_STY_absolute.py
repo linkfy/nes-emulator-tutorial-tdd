@@ -1,5 +1,5 @@
 """
-Test 049 - Add STY absolute ($8C).
+Add STY absolute ($8C).
 
 File to update:
     emulator/cpu/opcodes.py

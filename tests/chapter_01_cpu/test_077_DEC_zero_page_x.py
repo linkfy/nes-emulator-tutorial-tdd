@@ -1,4 +1,4 @@
-"""Lesson 077: wire DEC Zero Page,X (`0xD6`).
+"""wire DEC Zero Page,X (`0xD6`).
 
 In this step, with `dec` imported by lesson 076, add
 `emulator/cpu/opcodes.py:dec_zero_page_x` and `OPCODE_TABLE[0xD6]` only.

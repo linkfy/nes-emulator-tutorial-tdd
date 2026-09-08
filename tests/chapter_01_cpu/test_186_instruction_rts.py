@@ -1,4 +1,4 @@
-"""Step 186: add addressing-independent RTS behavior.
+"""add addressing-independent RTS behavior.
 
 Prerequisite: steps 184-185 added JSR behavior and opcode wiring. In this step,
 add ``emulator/cpu/instructions.py::rts``:

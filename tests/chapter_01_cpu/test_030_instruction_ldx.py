@@ -1,5 +1,5 @@
 """
-Test 030 — Add the core LDX instruction.
+Add the core LDX instruction.
 
 File to update:
     emulator/cpu/instructions.py

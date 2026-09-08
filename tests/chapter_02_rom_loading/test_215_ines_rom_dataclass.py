@@ -1,5 +1,5 @@
 """
-Lesson 215: add
+add
 `emulator/cartridge/ines.py::INesRom`.
 
 Why this step exists:

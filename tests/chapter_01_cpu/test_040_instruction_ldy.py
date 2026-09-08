@@ -1,5 +1,5 @@
 """
-Test 040 - Add the core LDY instruction.
+Add the core LDY instruction.
 
 File to update:
     emulator/cpu/instructions.py

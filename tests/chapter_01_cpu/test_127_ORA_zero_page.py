@@ -1,4 +1,4 @@
-"""Lesson 127: add ORA zero-page opcode ``0x05``.
+"""add ORA zero-page opcode ``0x05``.
 
 Why this step exists:
 ORA must distinguish a zero-page address operand from literal data, read the

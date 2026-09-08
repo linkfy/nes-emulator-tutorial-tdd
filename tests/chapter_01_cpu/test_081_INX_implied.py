@@ -1,5 +1,5 @@
 """
-Test 081 - Wire the INX implied opcode.
+Wire the INX implied opcode.
 
 In this step, add only the INX opcode integration after Test 080 has provided
 `instructions.inx`.

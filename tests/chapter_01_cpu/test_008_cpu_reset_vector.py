@@ -1,5 +1,5 @@
 """
-Test 008 — Initialize CPU state from the reset vector.
+Initialize CPU state from the reset vector.
 
 File to update:
     emulator/cpu/cpu.py

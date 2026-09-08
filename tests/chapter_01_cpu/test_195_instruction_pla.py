@@ -1,4 +1,4 @@
-"""Step 195: implement PLA behavior.
+"""implement PLA behavior.
 
 In this step, change only ``emulator/cpu/instructions.py`` by adding
 ``pla(cpu)``. Prerequisites: ``STACK_BASE`` and the zero/negative flag setters
@@ -8,7 +8,7 @@ Why this step exists:
 A pull first advances S to the occupied stack slot, loads that byte
 into A, and derives Z and N from the newly loaded accumulator.
 
-Suggested implementation::
+Suggested implementation:
 
     cpu.s = (cpu.s + 1) & 0xFF
     cpu.a = cpu.bus.read(0x0100 | cpu.s)

@@ -1,5 +1,5 @@
 """
-Test 085 - Wire the INY implied opcode.
+Wire the INY implied opcode.
 
 In this step, use `instructions.iny` from Test 084 and add only dispatch.
 

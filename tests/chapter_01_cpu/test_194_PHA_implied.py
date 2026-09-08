@@ -1,4 +1,4 @@
-"""Step 194: register implied PHA.
+"""register implied PHA.
 
 Prerequisite: step 193 added ``pha``. In this step, change only
 ``emulator/cpu/opcodes.py`` by importing ``pha`` and adding its entry to
@@ -8,7 +8,7 @@ Why this step exists:
 PHA gets its source from CPU register A, so opcode $48 requires no
 addressing mode or operand and can dispatch directly to ``pha(cpu)``.
 
-Suggested implementation::
+Suggested implementation:
 
     from emulator.cpu.instructions import pha
 

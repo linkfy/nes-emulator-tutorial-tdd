@@ -1,4 +1,4 @@
-"""Lesson 133: add ORA (indirect),Y opcode ``0x11``.
+"""add ORA (indirect),Y opcode ``0x11``.
 
 Why this step exists:
 This completes ORA's addressing forms by resolving a zero-page pointer and then

@@ -1,5 +1,5 @@
 """
-Test 047 - Add STY zero page ($84).
+Add STY zero page ($84).
 
 File to update:
     emulator/cpu/opcodes.py

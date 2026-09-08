@@ -1,4 +1,4 @@
-"""Lesson 157: add CPX zero-page opcode ``0xE4``.
+"""add CPX zero-page opcode ``0xE4``.
 
 Why this step exists:
 Zero-page CPX distinguishes a compact memory address from an immediate value

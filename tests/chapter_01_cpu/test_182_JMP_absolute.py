@@ -1,4 +1,4 @@
-"""Step 182: wire JMP absolute opcode $4C.
+"""wire JMP absolute opcode $4C.
 
 Prerequisite: step 181 added ``jmp``. In this step, add these changes in
 ``emulator/cpu/opcodes.py`` (including imports and table entry):

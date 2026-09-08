@@ -1,4 +1,4 @@
-"""Lesson 080: add the INX instruction primitive.
+"""add the INX instruction primitive.
 
 In this step, add only `emulator/cpu/instructions.py:inx`. Opcode `0xE8` is
 lesson 081, while `dex` and opcode `0xCA` are lessons 082-083.

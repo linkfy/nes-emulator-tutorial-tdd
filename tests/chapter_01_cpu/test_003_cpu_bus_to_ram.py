@@ -1,5 +1,5 @@
 """
-Test 003 — Route CPU RAM addresses through CpuBus.
+Route CPU RAM addresses through CpuBus.
 
 File to update:
     emulator/bus/cpu_bus.py

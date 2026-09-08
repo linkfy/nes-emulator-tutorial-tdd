@@ -1,4 +1,4 @@
-"""Lesson 143: implement addressing-independent BIT behavior.
+"""implement addressing-independent BIT behavior.
 
 Why this step exists:
 BIT has unusual flag semantics: Z comes from A AND value while N and V copy

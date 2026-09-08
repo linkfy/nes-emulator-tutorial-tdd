@@ -1,4 +1,4 @@
-"""Lesson 167: implement Branch if Not Equal behavior.
+"""implement Branch if Not Equal behavior.
 
 Why this step exists:
 Zero clear records a non-equal result from an earlier operation, so BNE can

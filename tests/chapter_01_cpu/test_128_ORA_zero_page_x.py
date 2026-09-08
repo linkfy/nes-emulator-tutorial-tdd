@@ -1,4 +1,4 @@
-"""Lesson 128: add ORA zero-page,X opcode ``0x15``.
+"""add ORA zero-page,X opcode ``0x15``.
 
 Why this step exists:
 This enables compact indexed ORA access and verifies that adding X obeys

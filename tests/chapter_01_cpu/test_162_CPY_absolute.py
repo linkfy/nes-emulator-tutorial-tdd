@@ -1,4 +1,4 @@
-"""Lesson 162: add CPY absolute opcode ``0xCC``.
+"""add CPY absolute opcode ``0xCC``.
 
 Why this step exists:
 Absolute CPY compares Y with a byte anywhere in CPU memory and verifies the

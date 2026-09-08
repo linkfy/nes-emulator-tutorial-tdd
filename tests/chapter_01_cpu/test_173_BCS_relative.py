@@ -1,4 +1,4 @@
-"""Step 173: connect BCS to its relative opcode.
+"""connect BCS to its relative opcode.
 
 Prerequisite: step 172 imported ``relative`` and wired BCC. In this step, add
 these pieces

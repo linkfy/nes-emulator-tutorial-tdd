@@ -1,4 +1,4 @@
-"""Lesson 152: add CMP absolute,Y opcode ``0xD9``.
+"""add CMP absolute,Y opcode ``0xD9``.
 
 Why this step exists:
 Absolute,Y provides the corresponding indexed comparison through Y while

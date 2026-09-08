@@ -1,4 +1,4 @@
-"""Lesson 134: implement addressing-independent EOR behavior.
+"""implement addressing-independent EOR behavior.
 
 Why this step exists:
 Centralizing exclusive-OR semantics in a value-oriented primitive lets every

@@ -1,4 +1,4 @@
-"""Step 189: add addressing-independent BRK behavior.
+"""add addressing-independent BRK behavior.
 
 Prerequisite: step 188 added the I, B, and unused-bit helpers. In this step, add
 this complete ``emulator/cpu/instructions.py::brk`` implementation:

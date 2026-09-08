@@ -1,5 +1,5 @@
 """
-Test 088 - Add memory-targeted ASL behavior.
+Add memory-targeted ASL behavior.
 
 In this step, add the reusable memory instruction. Accumulator behavior is
 Test 089, and opcode wrappers start at Test 090.

@@ -1,5 +1,5 @@
 """
-Test 043 - Add LDY zero page ($A4).
+Add LDY zero page ($A4).
 
 File to update:
     emulator/cpu/opcodes.py

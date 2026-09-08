@@ -1,4 +1,4 @@
-"""Step 181: add addressing-independent JMP behavior.
+"""add addressing-independent JMP behavior.
 
 In this step, add ``emulator/cpu/instructions.py::jmp``:
 

@@ -1,4 +1,4 @@
-"""Lesson 122: add AND absolute,Y opcode ``0x39``.
+"""add AND absolute,Y opcode ``0x39``.
 
 Why this step exists:
 This supplies the Y-indexed counterpart to absolute,X so AND can use either

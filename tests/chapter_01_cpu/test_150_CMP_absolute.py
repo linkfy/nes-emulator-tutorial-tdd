@@ -1,4 +1,4 @@
-"""Lesson 150: add CMP absolute opcode ``0xCD``.
+"""add CMP absolute opcode ``0xCD``.
 
 Why this step exists:
 Absolute CMP allows A to be compared with a byte anywhere in CPU memory while

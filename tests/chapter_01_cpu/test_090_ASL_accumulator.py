@@ -1,5 +1,5 @@
 """
-Test 090 - Wire the ASL accumulator opcode.
+Wire the ASL accumulator opcode.
 
 In this step, use `asl_a` from Test 089 and add only accumulator dispatch.
 Tests 091-094 add the memory forms.

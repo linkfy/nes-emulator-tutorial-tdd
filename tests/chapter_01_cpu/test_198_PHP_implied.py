@@ -1,4 +1,4 @@
-"""Step 198: register implied PHP.
+"""register implied PHP.
 
 Prerequisite: step 197 added ``php``. In this step, change only
 ``emulator/cpu/opcodes.py`` by importing ``php`` and registering it in
@@ -8,7 +8,7 @@ Why this step exists:
 PHP obtains P and S directly from CPU state. Opcode $08 therefore
 has no operand and dispatches directly to ``php(cpu)``.
 
-Suggested implementation::
+Suggested implementation:
 
     from emulator.cpu.instructions import php
 

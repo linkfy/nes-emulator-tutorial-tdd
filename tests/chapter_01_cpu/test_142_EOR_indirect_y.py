@@ -1,4 +1,4 @@
-"""Lesson 142: add EOR (indirect),Y opcode ``0x51``.
+"""add EOR (indirect),Y opcode ``0x51``.
 
 Why this step exists:
 This completes EOR addressing coverage with post-indexed pointer access, using

@@ -1,5 +1,5 @@
 """
-Test 093 - Add ASL Absolute.
+Add ASL Absolute.
 
 In this step, extend memory ASL to the existing 16-bit absolute resolver.
 

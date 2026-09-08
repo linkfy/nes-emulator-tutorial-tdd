@@ -1,11 +1,11 @@
-"""Step 204: wire implied TSX opcode $BA.
+"""wire implied TSX opcode $BA.
 
 Why this step exists:
 In this step, the targets are ``emulator/cpu/opcodes.py``'s instruction import and
 ``OPCODE_TABLE``; ``emulator/cpu/instructions.py::tsx`` is supplied by step
 203.  This transition exposes TSX to ``emulator/cpu/cpu.py::CPU.step``.
 
-Suggested implementation::
+Suggested implementation:
 
     from emulator.cpu.instructions import tsx  # add to the existing import
 

@@ -1,4 +1,4 @@
-"""Lesson 136: add EOR zero-page opcode ``0x45``.
+"""add EOR zero-page opcode ``0x45``.
 
 Why this step exists:
 EOR needs a compact memory form that interprets its operand as a zero-page

@@ -1,5 +1,5 @@
 """
-Test 094 - Add ASL Absolute,X.
+Add ASL Absolute,X.
 
 In this step, complete the ASL addressing sequence with Absolute,X.
 

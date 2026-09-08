@@ -1,5 +1,5 @@
 """
-Test 089 - Add accumulator-targeted ASL behavior.
+Add accumulator-targeted ASL behavior.
 
 In this step, add only `asl_a`, using the memory form from Test 088 as context
 and leaving ASL opcode mapping to Tests 090-094.

@@ -1,4 +1,4 @@
-"""Step 197: implement PHP behavior.
+"""implement PHP behavior.
 
 In this step, change only ``emulator/cpu/instructions.py`` by adding
 ``php(cpu)``. Prerequisite: ``FlagsHandler.set_break_flag`` already exists.
@@ -8,7 +8,7 @@ PHP pushes P with the emulator's Break marker set, then
 clears that transient marker from live CPU state. As with every push, it writes
 to $0100 | S before decrementing the 8-bit S.
 
-Suggested implementation::
+Suggested implementation:
 
     def php(cpu: CPU):
         cpu.flags.set_break_flag(True)

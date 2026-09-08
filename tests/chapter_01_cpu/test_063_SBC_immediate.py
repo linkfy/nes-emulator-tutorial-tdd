@@ -1,5 +1,5 @@
 """
-Test 063 - Add SBC Immediate.
+Add SBC Immediate.
 
 File to update:
     emulator/cpu/opcodes.py

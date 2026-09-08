@@ -1,4 +1,4 @@
-"""Step 172: connect BCC to its relative opcode.
+"""connect BCC to its relative opcode.
 
 In this step, add these pieces to ``emulator/cpu/opcodes.py``:
 

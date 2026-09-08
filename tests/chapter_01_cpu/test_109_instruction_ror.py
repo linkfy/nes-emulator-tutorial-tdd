@@ -1,4 +1,4 @@
-"""Lesson 109: implement memory-targeted ROR.
+"""implement memory-targeted ROR.
 
 In this step, after lessons 102-108 complete ROL, add only the ROR memory
 primitive. ROR opcode wiring belongs to lessons 111-115.

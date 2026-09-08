@@ -1,4 +1,4 @@
-"""Lesson 119: add AND zero-page,X opcode ``0x35``.
+"""add AND zero-page,X opcode ``0x35``.
 
 In this step, after lesson 118, add only the indexed zero-page handler and table
 entry in ``emulator/cpu/opcodes.py``.

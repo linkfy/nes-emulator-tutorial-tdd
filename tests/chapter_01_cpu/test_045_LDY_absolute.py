@@ -1,5 +1,5 @@
 """
-Test 045 - Add LDY absolute ($AC).
+Add LDY absolute ($AC).
 
 File to update:
     emulator/cpu/opcodes.py

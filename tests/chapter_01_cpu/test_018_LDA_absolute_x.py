@@ -1,5 +1,5 @@
 """
-Test 018 — Add absolute,X LDA ($BD).
+Add absolute,X LDA ($BD).
 
 Files to update:
     emulator/cpu/addressing_modes.py

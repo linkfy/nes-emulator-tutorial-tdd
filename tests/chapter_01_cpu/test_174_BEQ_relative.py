@@ -1,4 +1,4 @@
-"""Step 174: connect BEQ to its relative opcode.
+"""connect BEQ to its relative opcode.
 
 Prerequisite: step 173 wired BCS. In this step, add the following to
 ``emulator/cpu/opcodes.py``:

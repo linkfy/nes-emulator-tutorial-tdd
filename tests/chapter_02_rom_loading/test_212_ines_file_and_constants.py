@@ -1,5 +1,5 @@
 """
-Lesson 212: define iNES layout constants in
+define iNES layout constants in
 `emulator/cartridge/ines.py`.
 
 Why this step exists:

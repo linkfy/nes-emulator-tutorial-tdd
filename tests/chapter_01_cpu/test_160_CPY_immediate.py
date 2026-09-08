@@ -1,4 +1,4 @@
-"""Lesson 160: expose CPY immediate as opcode ``0xC0``.
+"""expose CPY immediate as opcode ``0xC0``.
 
 Why this step exists:
 Immediate CPY exposes Y comparison through CPU execution using a literal byte

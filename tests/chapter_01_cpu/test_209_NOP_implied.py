@@ -1,11 +1,11 @@
-"""Step 209: wire official implied NOP opcode $EA.
+"""wire official implied NOP opcode $EA.
 
 Why this step exists:
 In this step, update ``emulator/cpu/opcodes.py``'s instruction import and
 ``OPCODE_TABLE``; ``emulator/cpu/instructions.py::nop`` already exists from
 step 208.  This mapping permits CPU.step to execute padding in real programs.
 
-Suggested implementation::
+Suggested implementation:
 
     from emulator.cpu.instructions import nop  # add to the existing import
 

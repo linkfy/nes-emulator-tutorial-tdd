@@ -1,4 +1,4 @@
-"""Lesson 168: implement Branch if Plus behavior.
+"""implement Branch if Plus behavior.
 
 Why this step exists:
 In 6502 terminology, "plus" means the existing Negative flag is clear, so BPL

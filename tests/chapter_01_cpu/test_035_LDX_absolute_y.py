@@ -1,5 +1,5 @@
 """
-Test 035 - Add LDX absolute,Y ($BE).
+Add LDX absolute,Y ($BE).
 
 File to update:
     emulator/cpu/opcodes.py

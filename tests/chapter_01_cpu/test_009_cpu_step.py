@@ -1,5 +1,5 @@
 """
-Test 009 — Execute the first opcode: immediate LDA ($A9).
+Execute the first opcode: immediate LDA ($A9).
 
 File to update:
     emulator/cpu/cpu.py

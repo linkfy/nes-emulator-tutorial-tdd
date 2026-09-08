@@ -1,4 +1,4 @@
-"""Lesson 166: implement Branch if Equal behavior.
+"""implement Branch if Equal behavior.
 
 Why this step exists:
 Comparisons and other earlier instructions encode equality as Zero set, so BEQ

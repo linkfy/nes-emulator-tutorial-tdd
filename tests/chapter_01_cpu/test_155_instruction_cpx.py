@@ -1,4 +1,4 @@
-"""Lesson 155: implement addressing-independent CPX behavior.
+"""implement addressing-independent CPX behavior.
 
 Why this step exists:
 CPX needs one value-oriented definition of its no-borrow, equality, and

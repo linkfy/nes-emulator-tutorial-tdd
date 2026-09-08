@@ -1,5 +1,5 @@
 """
-Test 014 — Extract the LDA instruction mechanism.
+Extract the LDA instruction mechanism.
 
 Files to update:
     emulator/cpu/instructions.py

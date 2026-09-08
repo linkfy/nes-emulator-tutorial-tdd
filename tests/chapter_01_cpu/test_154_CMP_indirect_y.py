@@ -1,4 +1,4 @@
-"""Lesson 154: add CMP (indirect),Y opcode ``0xD1``.
+"""add CMP (indirect),Y opcode ``0xD1``.
 
 Why this step exists:
 The (indirect),Y form completes CMP addressing by indexing a resolved

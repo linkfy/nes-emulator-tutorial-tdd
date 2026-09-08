@@ -1,5 +1,5 @@
 """
-Lesson 214: add
+add
 `emulator/cartridge/ines.py::parse_ines_header`.
 
 Why this step exists:

@@ -1,5 +1,5 @@
 """
-Test 046 - Add LDY absolute,X ($BC).
+Add LDY absolute,X ($BC).
 
 File to update:
     emulator/cpu/opcodes.py

@@ -1,5 +1,5 @@
 """
-Test 068 - Add SBC Absolute,Y.
+Add SBC Absolute,Y.
 
 File to update:
     emulator/cpu/opcodes.py

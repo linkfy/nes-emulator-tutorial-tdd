@@ -1,4 +1,4 @@
-"""Lesson 164: implement Branch if Carry Clear behavior.
+"""implement Branch if Carry Clear behavior.
 
 Why this step exists:
 Lesson 163 already returns a signed displacement and leaves PC at the next

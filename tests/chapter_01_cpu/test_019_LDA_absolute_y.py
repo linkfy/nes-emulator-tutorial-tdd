@@ -1,5 +1,5 @@
 """
-Test 019 — Add absolute,Y LDA ($B9).
+Add absolute,Y LDA ($B9).
 
 Files to update:
     emulator/cpu/addressing_modes.py

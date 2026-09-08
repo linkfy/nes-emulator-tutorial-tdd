@@ -1,5 +1,5 @@
 """
-Test 034 - Add LDX absolute ($AE).
+Add LDX absolute ($AE).
 
 File to update:
     emulator/cpu/opcodes.py

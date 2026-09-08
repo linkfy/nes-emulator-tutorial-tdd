@@ -1,11 +1,11 @@
-"""Step 208: implement the NOP operation.
+"""implement the NOP operation.
 
 Why this step exists:
 In this step, add ``emulator/cpu/instructions.py::nop``. The explicit no-op
 gives the official instruction a callable while leaving opcode-fetch concerns
 to CPU.step.
 
-Suggested implementation::
+Suggested implementation:
 
     def nop(cpu: CPU):
         pass

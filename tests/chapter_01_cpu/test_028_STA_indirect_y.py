@@ -1,5 +1,5 @@
 """
-Test 028 — Add indirect-indexed STA ($91, written `(d),Y`).
+Add indirect-indexed STA ($91, written `(d),Y`).
 
 File to update:
     emulator/cpu/opcodes.py

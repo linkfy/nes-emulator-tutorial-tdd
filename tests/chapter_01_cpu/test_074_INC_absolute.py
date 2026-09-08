@@ -1,4 +1,4 @@
-"""Lesson 074: wire INC Absolute (`0xEE`).
+"""wire INC Absolute (`0xEE`).
 
 In this step, with `inc` already imported, add
 `emulator/cpu/opcodes.py:inc_absolute` and `OPCODE_TABLE[0xEE]` only.

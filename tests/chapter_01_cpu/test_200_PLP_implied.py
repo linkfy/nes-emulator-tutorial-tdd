@@ -1,4 +1,4 @@
-"""Step 200: register implied PLP.
+"""register implied PLP.
 
 Prerequisite: step 199 added ``plp``. In this step, change only
 ``emulator/cpu/opcodes.py`` by importing ``plp`` and adding its ``OPCODE_TABLE``
@@ -8,7 +8,7 @@ Why this step exists:
 PLP obtains its value from the stack selected by S. Opcode $28 has
 no operand and must dispatch directly to ``plp(cpu)``.
 
-Suggested implementation::
+Suggested implementation:
 
     from emulator.cpu.instructions import plp
 

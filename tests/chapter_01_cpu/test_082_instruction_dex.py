@@ -1,5 +1,5 @@
 """
-Test 082 - Add DEX instruction behavior.
+Add DEX instruction behavior.
 
 In this step, add only the instruction function. Opcode 0xCA is the following
 Test 083 step.

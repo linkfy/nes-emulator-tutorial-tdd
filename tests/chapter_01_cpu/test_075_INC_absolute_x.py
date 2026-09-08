@@ -1,4 +1,4 @@
-"""Lesson 075: wire INC Absolute,X (`0xFE`).
+"""wire INC Absolute,X (`0xFE`).
 
 In this step, add `emulator/cpu/opcodes.py:inc_absolute_x` and
 `OPCODE_TABLE[0xFE]` after the other INC forms from lessons 071-074.

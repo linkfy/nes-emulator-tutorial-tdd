@@ -1,4 +1,4 @@
-"""Lesson 104: expose ROL A as opcode ``0x2A``.
+"""expose ROL A as opcode ``0x2A``.
 
 In this step, after lessons 102-103 define ``rol`` and ``rol_a``, add the ROL
 imports needed by opcodes and the accumulator dispatch entry. Later memory

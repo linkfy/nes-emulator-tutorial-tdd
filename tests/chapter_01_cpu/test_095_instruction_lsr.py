@@ -1,5 +1,5 @@
 """
-Test 095 - Add the LSR memory instruction behavior.
+Add the LSR memory instruction behavior.
 
 In this step, add only memory-targeted LSR behavior. Accumulator behavior and
 opcode wiring follow in Tests 096-101.

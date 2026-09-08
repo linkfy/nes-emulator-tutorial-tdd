@@ -1,5 +1,5 @@
 """
-Test 354 — Begin Chapter 14 by caching repeated background opacity-mask construction.
+Begin Chapter 14 by caching repeated background opacity-mask construction.
 
 File to update:
     emulator/rendering/nametable_renderer.py

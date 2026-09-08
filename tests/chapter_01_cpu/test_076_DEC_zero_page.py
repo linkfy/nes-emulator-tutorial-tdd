@@ -1,4 +1,4 @@
-"""Lesson 076: add DEC and wire Zero Page (`0xC6`).
+"""add DEC and wire Zero Page (`0xC6`).
 
 In this step, add `emulator/cpu/instructions.py:dec` and the zero-page
 import, handler, and table wiring in `emulator/cpu/opcodes.py`. Unlike INC,

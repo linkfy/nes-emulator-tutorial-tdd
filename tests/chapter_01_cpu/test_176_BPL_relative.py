@@ -1,4 +1,4 @@
-"""Step 176: connect BPL to its relative opcode.
+"""connect BPL to its relative opcode.
 
 Prerequisite: step 175 wired BNE. In this step, add the following to
 ``emulator/cpu/opcodes.py``:

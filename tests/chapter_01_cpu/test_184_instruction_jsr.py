@@ -1,4 +1,4 @@
-"""Step 184: add addressing-independent JSR behavior.
+"""add addressing-independent JSR behavior.
 
 In this step, add ``emulator/cpu/instructions.py::jsr``:
 

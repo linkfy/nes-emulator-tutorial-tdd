@@ -1,4 +1,4 @@
-"""Step 185: wire JSR absolute opcode $20.
+"""wire JSR absolute opcode $20.
 
 Prerequisite: step 184 added ``jsr``. In this step, add these changes in
 ``emulator/cpu/opcodes.py``:

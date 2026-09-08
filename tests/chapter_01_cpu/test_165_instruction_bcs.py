@@ -1,4 +1,4 @@
-"""Lesson 165: implement Branch if Carry Set behavior.
+"""implement Branch if Carry Set behavior.
 
 Why this step exists:
 The addressing layer has already consumed and signed the operand, so BCS only

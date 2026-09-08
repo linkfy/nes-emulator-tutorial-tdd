@@ -1,4 +1,4 @@
-"""Step 183: wire JMP indirect opcode $6C.
+"""wire JMP indirect opcode $6C.
 
 Prerequisites: step 180 added ``indirect`` and step 181 added ``jmp``. In this
 step, add these changes to ``emulator/cpu/opcodes.py``:

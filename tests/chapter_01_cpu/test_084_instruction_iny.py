@@ -1,5 +1,5 @@
 """
-Test 084 - Add INY instruction behavior.
+Add INY instruction behavior.
 
 In this step, add only `iny`, before its Test 085 opcode mapping and the DEY
 work in Tests 086-087.

@@ -1,5 +1,5 @@
 """
-Test 015 — Add zero-page LDA ($A5).
+Add zero-page LDA ($A5).
 
 Files to update:
     emulator/cpu/addressing_modes.py

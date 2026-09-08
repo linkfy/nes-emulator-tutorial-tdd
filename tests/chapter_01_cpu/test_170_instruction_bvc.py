@@ -1,4 +1,4 @@
-"""Lesson 170: implement Branch if Overflow Clear behavior.
+"""implement Branch if Overflow Clear behavior.
 
 Why this step exists:
 BVC observes the existing signed-arithmetic Overflow condition and branches

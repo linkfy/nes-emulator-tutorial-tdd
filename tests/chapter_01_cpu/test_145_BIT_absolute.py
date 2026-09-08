@@ -1,4 +1,4 @@
-"""Lesson 145: add BIT absolute opcode ``0x2C``.
+"""add BIT absolute opcode ``0x2C``.
 
 Why this step exists:
 Absolute BIT extends the flag-only test to the full address space and verifies

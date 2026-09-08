@@ -1,4 +1,4 @@
-"""Lesson 073: wire INC Zero Page,X (`0xF6`).
+"""wire INC Zero Page,X (`0xF6`).
 
 In this step, use `instructions.inc` and the INC import from lessons 071-072,
 then add only `emulator/cpu/opcodes.py:inc_zero_page_x` and

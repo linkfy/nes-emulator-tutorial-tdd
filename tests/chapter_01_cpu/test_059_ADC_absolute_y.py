@@ -1,5 +1,5 @@
 """
-Test 059 - Connect ADC absolute,Y (opcode $79) to CPU dispatch.
+Connect ADC absolute,Y (opcode $79) to CPU dispatch.
 
 File to update:
     emulator/cpu/opcodes.py

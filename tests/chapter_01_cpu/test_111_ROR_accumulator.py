@@ -1,4 +1,4 @@
-"""Lesson 111: expose the already-built ROR A as opcode ``0x6A``.
+"""expose the already-built ROR A as opcode ``0x6A``.
 
 In this step, use ``ror`` and ``ror_a`` from lessons 109-110 and add only the
 accumulator opcode integration in ``emulator/cpu/opcodes.py``.

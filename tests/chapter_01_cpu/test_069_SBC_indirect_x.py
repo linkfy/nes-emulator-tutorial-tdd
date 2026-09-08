@@ -1,5 +1,5 @@
 """
-Test 069 - Add SBC (Indirect,X).
+Add SBC (Indirect,X).
 
 File to update:
     emulator/cpu/opcodes.py

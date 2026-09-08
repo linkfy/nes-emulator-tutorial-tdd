@@ -1,5 +1,5 @@
 """
-Lesson 216: add
+add
 `emulator/cartridge/ines.py::parse_ines_rom`.
 
 Why this step exists:

@@ -1,4 +1,4 @@
-"""Step 188: add I, B, and unused-bit flag helpers.
+"""add I, B, and unused-bit flag helpers.
 
 In this step, define Break as bit 4 and the pushed-status unused bit as bit 5.
 Add to ``emulator/cpu/flags_handler.py``:

@@ -1,5 +1,5 @@
 """
-Test 001 — Create the initial emulator source files.
+Create the initial emulator source files.
 
 Files to create:
     emulator/cpu/cpu.py

@@ -1,5 +1,5 @@
 """
-Lesson 219: add
+add
 `emulator/cartridge/mapper000.py::Mapper000.read_chr`.
 
 Why this step exists:

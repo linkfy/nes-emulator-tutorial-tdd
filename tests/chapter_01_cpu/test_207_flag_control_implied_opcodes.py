@@ -1,11 +1,11 @@
-"""Step 207: wire implied flag-control opcodes.
+"""wire implied flag-control opcodes.
 
 Why this step exists:
 In this step, update ``emulator/cpu/opcodes.py``'s instruction import and
 ``OPCODE_TABLE``.  The functions from step 206 become executable through
 ``emulator/cpu/cpu.py::CPU.step``.
 
-Suggested implementation::
+Suggested implementation:
 
     # Add clc, sec, cli, sei, cld, sed, clv to the instruction import.
     OPCODE_TABLE = {

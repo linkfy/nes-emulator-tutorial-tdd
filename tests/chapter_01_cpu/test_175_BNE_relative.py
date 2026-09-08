@@ -1,4 +1,4 @@
-"""Step 175: connect BNE to its relative opcode.
+"""connect BNE to its relative opcode.
 
 Prerequisite: step 174 wired BEQ. In this step, add these pieces to
 ``emulator/cpu/opcodes.py``:

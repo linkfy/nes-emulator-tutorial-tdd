@@ -1,4 +1,4 @@
-"""Lesson 130: add ORA absolute,X opcode ``0x1D``.
+"""add ORA absolute,X opcode ``0x1D``.
 
 Why this step exists:
 This permits ORA against full-address tables indexed by X while keeping address

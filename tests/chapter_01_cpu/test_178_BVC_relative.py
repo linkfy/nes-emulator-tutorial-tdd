@@ -1,4 +1,4 @@
-"""Step 178: connect BVC to its relative opcode.
+"""connect BVC to its relative opcode.
 
 Prerequisite: step 177 wired BMI. In this step, add the following to
 ``emulator/cpu/opcodes.py``:

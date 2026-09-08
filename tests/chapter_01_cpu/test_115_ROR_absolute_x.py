@@ -1,4 +1,4 @@
-"""Lesson 115: complete ROR with absolute,X opcode ``0x7E``.
+"""complete ROR with absolute,X opcode ``0x7E``.
 
 In this step, after lesson 114, add only the Absolute,X handler and table entry
 in ``emulator/cpu/opcodes.py``.

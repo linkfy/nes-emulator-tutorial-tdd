@@ -1,4 +1,4 @@
-"""Lesson 156: expose CPX immediate as opcode ``0xE0``.
+"""expose CPX immediate as opcode ``0xE0``.
 
 Why this step exists:
 Immediate CPX first exposes the comparison through CPU execution with a

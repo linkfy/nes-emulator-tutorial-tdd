@@ -1,5 +1,5 @@
 """
-Test 013 — Extract immediate and absolute addressing modes.
+Extract immediate and absolute addressing modes.
 
 Files to update:
     emulator/cpu/addressing_modes.py

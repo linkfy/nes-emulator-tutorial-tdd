@@ -1,4 +1,4 @@
-"""Step 187: wire implied RTS opcode $60.
+"""wire implied RTS opcode $60.
 
 Prerequisite: step 186 supplied ``rts``. In this step, add its import and direct
 table mapping in

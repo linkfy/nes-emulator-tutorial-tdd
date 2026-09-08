@@ -1,4 +1,4 @@
-"""Lesson 158: add CPX absolute opcode ``0xEC``.
+"""add CPX absolute opcode ``0xEC``.
 
 Why this step exists:
 Absolute CPX extends the comparison to a byte anywhere in CPU memory while

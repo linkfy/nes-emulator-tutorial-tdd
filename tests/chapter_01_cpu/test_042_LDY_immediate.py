@@ -1,5 +1,5 @@
 """
-Test 042 - Add LDY immediate ($A0).
+Add LDY immediate ($A0).
 
 File to update:
     emulator/cpu/opcodes.py

@@ -1,5 +1,5 @@
 """
-Test 016 — Replace CPU.step branches with an opcode table.
+Replace CPU.step branches with an opcode table.
 
 File to create:
     emulator/cpu/opcodes.py

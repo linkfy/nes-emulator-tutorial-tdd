@@ -1,5 +1,5 @@
 """
-Test 005 — Introduce the common memory-device interface.
+Introduce the common memory-device interface.
 
 File to create:
     emulator/memory/memory_device.py

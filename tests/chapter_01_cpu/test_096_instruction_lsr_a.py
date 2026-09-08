@@ -1,5 +1,5 @@
 """
-Test 096 - Add the LSR accumulator instruction behavior.
+Add the LSR accumulator instruction behavior.
 
 In this step, add accumulator-targeted LSR behavior after the memory primitive
 from Test 095.

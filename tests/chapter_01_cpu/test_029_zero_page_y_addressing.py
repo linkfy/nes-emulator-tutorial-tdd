@@ -1,5 +1,5 @@
 """
-Test 029 — Add zero-page,Y addressing.
+Add zero-page,Y addressing.
 
 File to update:
     emulator/cpu/addressing_modes.py

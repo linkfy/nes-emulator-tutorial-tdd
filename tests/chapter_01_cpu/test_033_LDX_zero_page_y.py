@@ -1,5 +1,5 @@
 """
-Test 033 - Add LDX zero-page,Y ($B6).
+Add LDX zero-page,Y ($B6).
 
 File to update:
     emulator/cpu/opcodes.py

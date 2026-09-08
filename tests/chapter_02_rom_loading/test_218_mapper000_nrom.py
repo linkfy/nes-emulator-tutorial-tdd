@@ -1,5 +1,5 @@
 """
-Lesson 218: create
+create
 `emulator/cartridge/mapper000.py::Mapper000.read_prg` for NROM CPU mapping.
 
 Why this step exists:

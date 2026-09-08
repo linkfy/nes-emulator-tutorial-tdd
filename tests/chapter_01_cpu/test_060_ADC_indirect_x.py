@@ -1,5 +1,5 @@
 """
-Test 060 - Connect ADC (indirect,X) (opcode $61) to CPU dispatch.
+Connect ADC (indirect,X) (opcode $61) to CPU dispatch.
 
 File to update:
     emulator/cpu/opcodes.py

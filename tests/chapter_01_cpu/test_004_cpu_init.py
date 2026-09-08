@@ -1,5 +1,5 @@
 """
-Test 004 — Create basic CPU state and fetch helpers.
+Create basic CPU state and fetch helpers.
 
 File to update:
     emulator/cpu/cpu.py

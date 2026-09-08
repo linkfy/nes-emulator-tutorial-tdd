@@ -1,4 +1,4 @@
-"""Lesson 106: wire ROL Zero Page,X (opcode ``0x36``).
+"""wire ROL Zero Page,X (opcode ``0x36``).
 
 In this step, extend lesson 105 with only the indexed zero-page adapter and
 dispatch entry.

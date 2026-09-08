@@ -1,5 +1,5 @@
 """
-Test 097 - Add the LSR Accumulator opcode.
+Add the LSR Accumulator opcode.
 
 In this step, expose the accumulator behavior from Test 096 through opcode
 dispatch.

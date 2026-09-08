@@ -1,4 +1,4 @@
-"""Lesson 146: implement addressing-independent CMP behavior.
+"""implement addressing-independent CMP behavior.
 
 Why this step exists:
 CMP needs one value-oriented definition of no-borrow Carry, equality Zero, and

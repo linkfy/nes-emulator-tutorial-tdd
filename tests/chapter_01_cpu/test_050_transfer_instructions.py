@@ -1,5 +1,5 @@
 """
-Test 050 - Add the core TAX, TXA, TAY, and TYA instructions.
+Add the core TAX, TXA, TAY, and TYA instructions.
 
 File to update:
     emulator/cpu/instructions.py

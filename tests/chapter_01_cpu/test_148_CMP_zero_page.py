@@ -1,4 +1,4 @@
-"""Lesson 148: add CMP zero-page opcode ``0xC5``.
+"""add CMP zero-page opcode ``0xC5``.
 
 Why this step exists:
 CMP must compare A with memory as well as literals; this form resolves a compact

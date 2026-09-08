@@ -1,5 +1,5 @@
 """
-Test 054 - Connect ADC immediate (opcode $69) to CPU dispatch.
+Connect ADC immediate (opcode $69) to CPU dispatch.
 
 File to update:
     emulator/cpu/opcodes.py

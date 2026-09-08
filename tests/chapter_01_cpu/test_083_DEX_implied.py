@@ -1,5 +1,5 @@
 """
-Test 083 - Wire the DEX implied opcode.
+Wire the DEX implied opcode.
 
 In this step, use `instructions.dex` from Test 082 and add only its opcode
 integration.

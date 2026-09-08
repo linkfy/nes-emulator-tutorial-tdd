@@ -1,4 +1,4 @@
-"""Step 205: add Decimal-bit support.
+"""add Decimal-bit support.
 
 Why this step exists:
 In this step, add ``emulator/cpu/flags_handler.py`` symbols ``DECIMAL_FLAG``,
@@ -7,7 +7,7 @@ helper keeps bit-3 manipulation in the status abstraction needed by subsequent
 flag-control operations.  The NES CPU retains D even though ADC/SBC do not use
 6502 BCD arithmetic.
 
-Suggested implementation::
+Suggested implementation:
 
     DECIMAL_FLAG = 1 << 3
 

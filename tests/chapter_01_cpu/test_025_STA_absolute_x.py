@@ -1,5 +1,5 @@
 """
-Test 025 — Add absolute,X STA ($9D).
+Add absolute,X STA ($9D).
 
 File to update:
     emulator/cpu/opcodes.py

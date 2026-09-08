@@ -1,4 +1,4 @@
-"""Lesson 110: implement accumulator-targeted ROR.
+"""implement accumulator-targeted ROR.
 
 In this step, use memory ``ror`` from lesson 109 as a prerequisite and add only
 ``ror_a``. Opcode ``0x6A`` is deferred to lesson 111.

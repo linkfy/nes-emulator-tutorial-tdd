@@ -1,4 +1,4 @@
-"""Step 211: add `emulator/debug/cpu_trace.py::format_cpu_trace`.
+"""add `emulator/debug/cpu_trace.py::format_cpu_trace`.
 
 Why this step exists:
 In this step, add a formatter that provides observability before ROM-log

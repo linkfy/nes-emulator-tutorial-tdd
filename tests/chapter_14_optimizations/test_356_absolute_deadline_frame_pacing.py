@@ -1,5 +1,5 @@
 """
-Test 356 — Replace relative sleep pacing with absolute 60 FPS deadlines.
+Replace relative sleep pacing with absolute 60 FPS deadlines.
 
 File to update:
     main.py

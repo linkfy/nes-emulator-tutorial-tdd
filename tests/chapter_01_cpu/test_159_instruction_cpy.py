@@ -1,4 +1,4 @@
-"""Lesson 159: implement addressing-independent CPY behavior.
+"""implement addressing-independent CPY behavior.
 
 Why this step exists:
 CPY needs a value-oriented comparison primitive so every addressing form uses

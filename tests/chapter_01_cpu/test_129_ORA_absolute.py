@@ -1,4 +1,4 @@
-"""Lesson 129: add ORA absolute opcode ``0x0D``.
+"""add ORA absolute opcode ``0x0D``.
 
 Why this step exists:
 Absolute ORA extends the operation beyond zero page by decoding a full

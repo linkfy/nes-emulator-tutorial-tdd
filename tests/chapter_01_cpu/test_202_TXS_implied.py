@@ -1,4 +1,4 @@
-"""Step 202: wire implied TXS opcode $9A.
+"""wire implied TXS opcode $9A.
 
 Why this step exists:
 In this step, the targets are ``emulator/cpu/opcodes.py``'s instruction import and
@@ -6,7 +6,7 @@ In this step, the targets are ``emulator/cpu/opcodes.py``'s instruction import a
 step 201.  The opcode wiring makes that isolated behavior executable through
 ``emulator/cpu/cpu.py::CPU.step``.
 
-Suggested implementation::
+Suggested implementation:
 
     from emulator.cpu.instructions import txs  # add to the existing import
 

@@ -1,4 +1,4 @@
-"""Lesson 147: add CMP immediate opcode ``0xC9``.
+"""add CMP immediate opcode ``0xC9``.
 
 Why this step exists:
 The immediate form first exposes CMP through CPU execution, comparing A with a

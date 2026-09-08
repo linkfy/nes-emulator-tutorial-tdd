@@ -1,4 +1,4 @@
-"""Step 191: implement RTI behavior.
+"""implement RTI behavior.
 
 In this step, change only ``emulator/cpu/instructions.py`` by adding
 ``rti(cpu)``. Prerequisite: step 188 introduced the required interrupt and Break
@@ -9,7 +9,7 @@ Interrupt entry leaves status, return-PC low, and return-PC high at
 the next three stack slots. RTI must pull those bytes in that LIFO order and
 restore the exact PC; unlike RTS, it must not add one.
 
-Suggested implementation::
+Suggested implementation:
 
     cpu.s = (cpu.s + 1) & 0xFF
     flags = cpu.bus.read(0x0100 | cpu.s)

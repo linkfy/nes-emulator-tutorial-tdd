@@ -1,5 +1,5 @@
 """
-Test 039 - Add STX absolute ($8E).
+Add STX absolute ($8E).
 
 File to update:
     emulator/cpu/opcodes.py

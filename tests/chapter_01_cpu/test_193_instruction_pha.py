@@ -1,4 +1,4 @@
-"""Step 193: implement PHA behavior.
+"""implement PHA behavior.
 
 In this step, change only ``emulator/cpu/instructions.py`` by adding
 ``pha(cpu)``. The stack page begins at ``STACK_BASE = 0x0100``.
@@ -7,7 +7,7 @@ Why this step exists:
 PHA copies A to the 6502 hardware stack. A push writes to the
 current $0100 | S slot first and then decrements the 8-bit stack pointer.
 
-Suggested implementation::
+Suggested implementation:
 
     cpu.bus.write(0x0100 | cpu.s, cpu.a)
     cpu.s = (cpu.s - 1) & 0xFF

@@ -1,5 +1,5 @@
 """
-Test 086 - Add DEY instruction behavior.
+Add DEY instruction behavior.
 
 In this step, add only `dey`; Test 087 wires the opcode after the behavior
 exists.

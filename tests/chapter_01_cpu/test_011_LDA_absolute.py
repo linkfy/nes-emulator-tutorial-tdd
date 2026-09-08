@@ -1,5 +1,5 @@
 """
-Test 011 — Add absolute-addressed LDA ($AD).
+Add absolute-addressed LDA ($AD).
 
 File to update:
     emulator/cpu/cpu.py

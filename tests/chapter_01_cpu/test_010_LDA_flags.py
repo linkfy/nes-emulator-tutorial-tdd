@@ -1,5 +1,5 @@
 """
-Test 010 — Update Zero and Negative flags after immediate LDA.
+Update Zero and Negative flags after immediate LDA.
 
 File to update:
     emulator/cpu/cpu.py

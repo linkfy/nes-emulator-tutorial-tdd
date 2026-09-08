@@ -1,5 +1,5 @@
 """
-Test 022 — Add the STA instruction and zero-page opcode ($85).
+Add the STA instruction and zero-page opcode ($85).
 
 Files to update:
     emulator/cpu/instructions.py

@@ -1,4 +1,4 @@
-"""Lesson 125: implement addressing-independent ORA behavior.
+"""implement addressing-independent ORA behavior.
 
 Why this step exists:
 A single value-oriented ORA primitive centralizes inclusive-OR result and flag

@@ -1,4 +1,4 @@
-"""Lesson 114: add ROR absolute opcode ``0x6E``.
+"""add ROR absolute opcode ``0x6E``.
 
 In this step, use the instruction and addressing imports from prior lessons and
 add only the absolute handler and table entry in ``emulator/cpu/opcodes.py``.

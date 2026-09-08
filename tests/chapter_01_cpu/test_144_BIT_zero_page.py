@@ -1,4 +1,4 @@
-"""Lesson 144: add BIT zero-page opcode ``0x24``.
+"""add BIT zero-page opcode ``0x24``.
 
 Why this step exists:
 The first BIT opcode must fetch an operand from memory rather than modify A,

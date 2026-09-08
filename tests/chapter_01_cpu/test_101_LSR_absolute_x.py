@@ -1,4 +1,4 @@
-"""Lesson 101: wire LSR Absolute,X (opcode ``0x5E``).
+"""wire LSR Absolute,X (opcode ``0x5E``).
 
 In this step, add only the final LSR addressing-mode adapter and dispatch entry
 below. The instruction primitive and other LSR modes from lessons 095-100 are

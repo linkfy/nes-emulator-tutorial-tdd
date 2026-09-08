@@ -1,4 +1,4 @@
-"""Lesson 161: add CPY zero-page opcode ``0xC4``.
+"""add CPY zero-page opcode ``0xC4``.
 
 Why this step exists:
 Zero-page CPY interprets its operand as a compact memory address and compares

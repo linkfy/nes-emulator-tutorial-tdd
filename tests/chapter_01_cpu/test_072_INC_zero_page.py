@@ -1,4 +1,4 @@
-"""Lesson 072: wire INC Zero Page (`0xE6`).
+"""wire INC Zero Page (`0xE6`).
 
 In this step, with `emulator/cpu/instructions.py:inc` from lesson 071 as a
 prerequisite, add only the zero-page wiring in `emulator/cpu/opcodes.py`.

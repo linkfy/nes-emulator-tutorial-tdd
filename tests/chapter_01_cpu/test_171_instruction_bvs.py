@@ -1,4 +1,4 @@
-"""Step 171: implement Branch if Overflow Set behavior.
+"""implement Branch if Overflow Set behavior.
 
 In this step, add ``emulator/cpu/instructions.py::bvs``:
 

@@ -1,5 +1,5 @@
 """
-Test 099 - Add LSR Zero Page,X.
+Add LSR Zero Page,X.
 
 In this step, add X indexing to the Zero Page LSR form from Test 098.
 

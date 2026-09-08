@@ -1,4 +1,4 @@
-"""Lesson 126: expose ORA immediate as opcode ``0x09``.
+"""expose ORA immediate as opcode ``0x09``.
 
 Why this step exists:
 The immediate opcode exposes ORA to CPU execution with a literal byte and

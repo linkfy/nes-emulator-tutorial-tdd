@@ -1,4 +1,4 @@
-"""Step 199: implement PLP behavior.
+"""implement PLP behavior.
 
 In this step, change only ``emulator/cpu/instructions.py`` by adding
 ``plp(cpu)``. Prerequisites: ``STACK_BASE`` and RTI's status-mask convention
@@ -8,7 +8,7 @@ Why this step exists:
 PLP advances S to the saved status byte and replaces P with that
 byte after removing this emulator model's non-persistent bits 4 and 5.
 
-Suggested implementation::
+Suggested implementation:
 
     cpu.s = (cpu.s + 1) & 0xFF
     flags = cpu.bus.read(0x0100 | cpu.s)

@@ -1,4 +1,4 @@
-"""Lesson 137: add EOR zero-page,X opcode ``0x55``.
+"""add EOR zero-page,X opcode ``0x55``.
 
 Why this step exists:
 This adds indexed zero-page EOR and verifies that X indexing wraps within the

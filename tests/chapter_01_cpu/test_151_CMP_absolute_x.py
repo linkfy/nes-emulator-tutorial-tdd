@@ -1,4 +1,4 @@
-"""Lesson 151: add CMP absolute,X opcode ``0xDD``.
+"""add CMP absolute,X opcode ``0xDD``.
 
 Why this step exists:
 Absolute,X lets CMP compare A with indexed tables outside zero page while

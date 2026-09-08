@@ -1,4 +1,4 @@
-"""Step 190: wire implied BRK opcode $00.
+"""wire implied BRK opcode $00.
 
 Prerequisite: step 189 completed ``brk`` with the required status-bit behavior.
 In this step, add this import and direct mapping in ``emulator/cpu/opcodes.py``:

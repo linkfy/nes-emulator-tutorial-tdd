@@ -1,5 +1,5 @@
 """
-Test 038 - Add STX zero-page,Y ($96).
+Add STX zero-page,Y ($96).
 
 File to update:
     emulator/cpu/opcodes.py

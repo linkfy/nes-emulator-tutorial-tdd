@@ -1,5 +1,5 @@
 """
-Test 041 - Add the core STY instruction.
+Add the core STY instruction.
 
 File to update:
     emulator/cpu/instructions.py

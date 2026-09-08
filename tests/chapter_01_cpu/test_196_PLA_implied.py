@@ -1,4 +1,4 @@
-"""Step 196: register implied PLA.
+"""register implied PLA.
 
 Prerequisite: step 195 added ``pla``. In this step, change only
 ``emulator/cpu/opcodes.py`` by importing ``pla`` and adding its ``OPCODE_TABLE``
@@ -8,7 +8,7 @@ Why this step exists:
 PLA's input is the hardware stack selected by S. Opcode $68 has no
 operand, so ``CPU.step()`` must dispatch directly to ``pla(cpu)``.
 
-Suggested implementation::
+Suggested implementation:
 
     from emulator.cpu.instructions import pla
 

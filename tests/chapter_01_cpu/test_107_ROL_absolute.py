@@ -1,4 +1,4 @@
-"""Lesson 107: wire ROL Absolute (opcode ``0x2E``).
+"""wire ROL Absolute (opcode ``0x2E``).
 
 In this step, after the zero-page modes, add only the absolute adapter and
 table entry.

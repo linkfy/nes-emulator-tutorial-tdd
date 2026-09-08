@@ -1,5 +1,5 @@
 """
-Test 100 - Add LSR Absolute.
+Add LSR Absolute.
 
 In this step, expose memory LSR through the existing 16-bit absolute resolver.
 

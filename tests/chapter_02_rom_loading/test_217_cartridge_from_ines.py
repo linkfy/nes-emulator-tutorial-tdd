@@ -1,5 +1,5 @@
 """
-Lesson 217: create
+create
 `emulator/cartridge/cartridge.py::Cartridge`.
 
 Why this step exists:

@@ -1,11 +1,11 @@
-"""Step 206: implement flag-control operations.
+"""implement flag-control operations.
 
 Why this step exists:
 In this step, add ``emulator/cpu/instructions.py`` symbols ``clc``, ``sec``,
 ``cli``, ``sei``, ``cld``, ``sed``, and ``clv``.  Each delegates one status-bit
 change to the existing ``cpu.flags`` API, including Decimal helpers from 205.
 
-Suggested implementation::
+Suggested implementation:
 
     def clc(cpu: CPU):
         cpu.flags.set_carry_flag(False)

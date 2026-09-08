@@ -1,4 +1,4 @@
-"""Lesson 103: implement accumulator-targeted ROL.
+"""implement accumulator-targeted ROL.
 
 In this step, use memory ``rol`` from lesson 102 as a prerequisite and add only
 the register variant. Dispatch is deferred to lesson 104.

@@ -1,5 +1,5 @@
 """
-Test 092 - Add ASL Zero Page,X.
+Add ASL Zero Page,X.
 
 In this step, extend the Zero Page form from Test 091 with X indexing.
 

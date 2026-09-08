@@ -1,5 +1,5 @@
 """
-Test 055 - Connect ADC zero page (opcode $65) to CPU dispatch.
+Connect ADC zero page (opcode $65) to CPU dispatch.
 
 File to update:
     emulator/cpu/opcodes.py

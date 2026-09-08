@@ -1,4 +1,4 @@
-"""Lesson 116: implement addressing-independent AND behavior.
+"""implement addressing-independent AND behavior.
 
 In this step, add only ``and_a`` to ``emulator/cpu/instructions.py``. Opcode
 imports and AND addressing modes follow in lessons 117-124.

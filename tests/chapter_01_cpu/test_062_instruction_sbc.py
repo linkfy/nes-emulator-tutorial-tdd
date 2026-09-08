@@ -1,5 +1,5 @@
 """
-Test 062 - Add the core SBC instruction.
+Add the core SBC instruction.
 
 File to update:
     emulator/cpu/instructions.py

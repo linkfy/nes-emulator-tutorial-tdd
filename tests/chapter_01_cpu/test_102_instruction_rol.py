@@ -1,4 +1,4 @@
-"""Lesson 102: implement memory-targeted ROL.
+"""implement memory-targeted ROL.
 
 In this step, add only the ROL memory primitive. Accumulator behavior follows
 in lesson 103, and opcode exposure belongs to lessons 104-108.

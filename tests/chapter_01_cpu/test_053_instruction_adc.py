@@ -1,5 +1,5 @@
 """
-Test 053 - Add the addressing-independent ADC instruction.
+Add the addressing-independent ADC instruction.
 
 File to update:
     emulator/cpu/instructions.py

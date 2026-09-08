@@ -1,4 +1,4 @@
-"""Step 177: connect BMI to its relative opcode.
+"""connect BMI to its relative opcode.
 
 Prerequisite: step 176 wired BPL. In this step, add these pieces to
 ``emulator/cpu/opcodes.py``:

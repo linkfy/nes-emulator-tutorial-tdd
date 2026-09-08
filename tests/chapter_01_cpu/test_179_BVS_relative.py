@@ -1,4 +1,4 @@
-"""Step 179: connect BVS to its relative opcode.
+"""connect BVS to its relative opcode.
 
 Prerequisite: step 171 added ``instructions.bvs``. In this step, add these
 pieces to ``emulator/cpu/opcodes.py``:

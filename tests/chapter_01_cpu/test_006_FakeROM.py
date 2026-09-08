@@ -1,5 +1,5 @@
 """
-Test 006 — Create writable FakeROM storage for CPU tests.
+Create writable FakeROM storage for CPU tests.
 
 File to create:
     emulator/memory/fake_rom.py

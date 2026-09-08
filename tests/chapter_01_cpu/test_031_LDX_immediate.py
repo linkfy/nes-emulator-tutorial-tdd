@@ -1,5 +1,5 @@
 """
-Test 031 - Add LDX immediate ($A2).
+Add LDX immediate ($A2).
 
 File to update:
     emulator/cpu/opcodes.py

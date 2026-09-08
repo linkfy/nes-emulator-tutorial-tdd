@@ -1,5 +1,5 @@
 """
-Test 020 — Add indexed-indirect LDA ($A1, written `(d,X)`).
+Add indexed-indirect LDA ($A1, written `(d,X)`).
 
 Files to update:
     emulator/cpu/addressing_modes.py

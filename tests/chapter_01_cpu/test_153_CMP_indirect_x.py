@@ -1,4 +1,4 @@
-"""Lesson 153: add CMP (indirect,X) opcode ``0xC1``.
+"""add CMP (indirect,X) opcode ``0xC1``.
 
 Why this step exists:
 The (indirect,X) form lets CMP use pre-indexed zero-page pointer tables while
