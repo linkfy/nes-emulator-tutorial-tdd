@@ -5,9 +5,6 @@ Files to create:
     emulator/rendering/
     emulator/rendering/framebuffer.py
 
-Recommended package file:
-    emulator/rendering/__init__.py
-
 Why this step exists:
 Phase 7 starts by defining the data shape that the emulator core will produce for
 visual output. This should be pure Python data, not pygame-specific data.
@@ -88,10 +85,6 @@ def test_rendering_folder_and_framebuffer_file_exist():
     """
     Objective:
     Start a rendering module for pure rendering data and transformations.
-
-    Note:
-    emulator/rendering/__init__.py is recommended so the folder is an explicit
-    Python package, even if modern Python can import namespace packages.
     """
     assert Path("emulator/rendering").exists()
     assert Path("emulator/rendering/framebuffer.py").exists()

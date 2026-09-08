@@ -3,7 +3,6 @@ Add a manual pygame main loop for the framebuffer smoke runner.
 
 Files to update/create:
     tools/show_framebuffer.py
-    tools/__init__.py
 
 Why this step exists:
 The previous step added helpers that can draw a Framebuffer onto a pygame Surface.
@@ -14,8 +13,7 @@ Important:
 This is a manual smoke runner, not an automated rendering test. Automated tests
 must not open a real pygame window.
 
-Why create tools/__init__.py?
-We want to run the tool as a Python module:
+Run the tool as a Python module:
 
     uv run python -m tools.show_framebuffer
 
@@ -23,12 +21,12 @@ Python's -m flag expects a module name, not a file path. The module name uses do
 
     tools.show_framebuffer
 
-not:
+not as a file path:
 
     tools/show_framebuffer.py
 
-Adding tools/__init__.py makes tools an explicit package and avoids confusion
-about import/module resolution.
+Modern Python supports this project layout as a namespace package, so this lesson
+does not require an `__init__.py` file.
 
 Manual commands:
 
@@ -128,17 +126,6 @@ import inspect
 from pathlib import Path
 
 from tools import show_framebuffer
-
-
-def test_tools_package_init_file_exists_for_module_execution():
-    """
-    Objective:
-    tools/__init__.py makes the manual tools directory an explicit Python package.
-
-    This supports:
-        uv run python -m tools.show_framebuffer
-    """
-    assert Path("tools/__init__.py").exists()
 
 
 def test_show_framebuffer_declares_scale_constant():

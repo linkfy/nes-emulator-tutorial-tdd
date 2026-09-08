@@ -2,7 +2,6 @@
 Define the pure NES Controller state object.
 
 Files to create in this step:
-    emulator/input/__init__.py
     emulator/input/controller.py
 
 Why this step exists:
@@ -95,7 +94,6 @@ def test_controller_input_files_exist():
     Controller input starts as a pure emulator-core input module, not as pygame or
     CpuBus behavior.
     """
-    assert Path("emulator/input/__init__.py").exists()
     assert Path("emulator/input/controller.py").exists()
 
 

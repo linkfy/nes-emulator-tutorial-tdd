@@ -20,10 +20,14 @@ This method returns the current visible framebuffer using:
 
 Suggested implementation example:
 
+    # Add this constant to the existing ppu_background_renderer import.
+    from emulator.rendering.ppu_background_renderer import PALETTE_RAM_ADDR
+
+
     def render_framebuffer(self) -> Framebuffer:
         background = self.render_background_framebuffer()
 
-        sprite_palette_start = PALETTE_START + 16
+        sprite_palette_start = PALETTE_RAM_ADDR + 16
         sprite_palette_ram = bytes(
             self.ppu.ppu_bus.read(sprite_palette_start + offset)
             for offset in range(16)

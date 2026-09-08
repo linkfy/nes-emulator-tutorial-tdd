@@ -17,8 +17,7 @@ Suggested implementation:
 
 Invariants: magic is exactly four bytes; headers and trainers are fixed-size;
 header bytes 4 and 5 count 16 KiB PRG and 8 KiB CHR banks, respectively. Do not
-mistake bank counts for byte lengths or put these format constants in
-`emulator/memory/rom.py`.
+mistake bank counts for byte lengths.
 
 Out of scope for this step:
     1. Lesson 213 adds `INesHeader`.
